@@ -2,7 +2,7 @@
 /*     Author: Paula Magdy               */
 /*     Date: 26/10/2023                  */
 /*     Version:	V.1                      */
-/*     Description: LCD_Cfg.h  	 */
+/*     Description: LCD_Cfg.h  		 */
 /*****************************************/
 
 #ifndef LCD_CFG_H_
