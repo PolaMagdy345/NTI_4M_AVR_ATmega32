@@ -1,9 +1,9 @@
-/********************************************************************************/
-/*								Author: Paula Magdy								*/
-/*								Date:	26/10/2023								*/
-/*								Version:	V.1									*/
-/*								Description: KeyPad_Interface.h 				*/
-/********************************************************************************/
+/*****************************************/
+/*     Author: Paula Magdy               */
+/*     Date: 26/10/2023                  */
+/*     Version:	V.1                      */
+/*     Description: KeyPad_Interface.h   */
+/*****************************************/
 
 #ifndef KEYPAD_INTERFACE_H_
 #define KEYPAD_INTERFACE_H_
