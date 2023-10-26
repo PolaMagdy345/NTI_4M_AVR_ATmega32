@@ -2,7 +2,7 @@
 /*     Author: Paula Magdy               */
 /*     Date: 26/10/2023                  */
 /*     Version:	V.1                      */
-/*     Description: Key_Pad.c	         */
+/*     Description: KeyPad.c	         */
 /*****************************************/
 
 #define KEYPAD_PRG	1
