@@ -2,19 +2,21 @@
 /*								Author: Paula Magdy								*/
 /*								Date:	26/10/2023								*/
 /*								Version:	V.1									*/
-/*								Description: KeyPad_Interface.h 				*/
+/*								Description: ELCD_Cfg.h							*/
 /********************************************************************************/
 
-#ifndef KEYPAD_INTERFACE_H_
-#define KEYPAD_INTERFACE_H_
-#include "KeyPad_Cfg.h"
-void KEYPAD_Init(void);
+#ifndef LCD_CFG_H_
+#define LCD_CFG_H_
 
-u8 KEYPAD_Getkey(void);
+#define RS	PINA3
+#define EN	PINA2
+
+#define LCD_PORT	PB
+	
+#define D4		PINB0
+#define D5		PINB1
+#define D6		PINB2
+#define D7		PINB4
 
 
-u8 KEYPAD_Binary(void);
-
-
-
-#endif /* KEYPAD_INTERFACE_H_ */
+#endif /* LCD_CFG_H_ */
