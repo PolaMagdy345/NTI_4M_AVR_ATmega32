@@ -2,7 +2,7 @@
 /*     Author: Paula Magdy               */
 /*     Date: 26/10/2023                  */
 /*     Version:	V.1                      */
-/*     Description: MemMap.h             */
+/*     Description: StdTypes.h           */
 /*****************************************/
 
 #ifndef STDTYPES_H_
