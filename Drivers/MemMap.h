@@ -1,7 +1,7 @@
 /*****************************************/
 /*     Author: Paula Magdy               */
-/*     Date: 26/10/2023                  */
-/*     Version:	V.1                      */
+/*     Date: 1/11/2023                   */
+/*     Version:	V.2                      */
 /*     Description: MemMap.h             */
 /*****************************************/
 
@@ -32,6 +32,11 @@
 
 
 /* ADC_Registers */
+
+#define ADTS0	5
+#define ADTS1	6
+#define ADTS2	7
+
 #define ADMUX (*(volatile unsigned char*)0x27)
 
 #define ADLAR 5

@@ -1,9 +1,10 @@
 /*****************************************/
 /*     Author: Paula Magdy               */
-/*     Date: 26/10/2023                  */
-/*     Version:	V.1                      */
-/*     Description: LCD_Cfg.h  		 */
+/*     Date: 1/11/2023                   */
+/*     Version:	V.2                      */
+/*     Description: LCD_Cfg.h			 */
 /*****************************************/
+
 
 #ifndef LCD_CFG_H_
 #define LCD_CFG_H_
@@ -16,7 +17,7 @@
 #define D4		PINB0
 #define D5		PINB1
 #define D6		PINB2
-#define D7		PINB4
+#define D7		PINB3
 
 
 #endif /* LCD_CFG_H_ */

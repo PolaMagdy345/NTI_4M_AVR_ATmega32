@@ -1,9 +1,9 @@
-/**************************************************/
+/**********************************************/
 /*     Author: Paula Magdy             		  */
-/*     Date: 26/10/2023                		  */
-/*     Version:	V.1                    		  */
-/*     Description: EX_Interrupt_Interface.h      */
-/**************************************************/
+/*     Date: 1/11/2023                		  */
+/*     Version:	V.2                    		  */
+/*     Description: EX_Interrupt_Interface.h  */
+/**********************************************/
 
 #ifndef EX_INTERRUPT_INTERFACE_H_
 #define EX_INTERRUPT_INTERFACE_H_
@@ -27,7 +27,7 @@ void EXI_Enable(ExInterruptSource_type Interrupt);
 void EXI_Disable(ExInterruptSource_type Interrupt);
 void EXI_TriggerEdge(ExInterruptSource_type Interrupt,TriggerEdge_type Edge);
 void EXI_SetCallBack(ExInterruptSource_type Interrupt,void(*LocalPtr)(void));
-
+void EX_Func1(void);
 
 
 
