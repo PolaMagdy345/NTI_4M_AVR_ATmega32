@@ -12,7 +12,7 @@
 #define SLAVE 0
 
 
-#define SPI_MODE	SLAVE
+#define SPI_MODE	MASTER
 
 
 void SPI_Init(void);

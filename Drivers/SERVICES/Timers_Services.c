@@ -22,7 +22,7 @@ void PWM_Init(void)
 
 void Servo_ADC_SetPosition(u16 P)		//ADC read for timer1
 {
-	DutyName=(((u32)P*1000)/1024)+1000;
+	DutyName=(((u32)P*1000)/1024)+999;
 }
 void PWM_Freq_KHZ(u16 freq)
 {
@@ -103,11 +103,12 @@ void PWM_Measure2(u32* Pfreq,u8* Pduty)
 }
 
 static void Func_ICU(void);
+
 void PWM_Measure(u32* Pfreq,u8* Pduty,u32 timeout)
 {
 	u16 Ton,Toff;
 	u32 c=0;
-	//TCNT1=0;
+	TCNT1=0;
 	Timer1_ICU_SetCallBack(Func_ICU);
 	Timer1_InputCaptureEdge(RISING);
 	Timer1_ICU_InterruptEnable();
@@ -157,7 +158,6 @@ static void Func_ICU(void)
 		t3=ICR1;
 		Timer1_ICU_InterruptDisable();
 		flag=3;
-		
 	}
 
 }/*

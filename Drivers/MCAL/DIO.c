@@ -5,7 +5,6 @@
 /*     Description: DIO.c	        	 */
 /*****************************************/
 
-/*#include "StdTypes.h"*/
 #include "MemMap.h"
 #include "StdTypes.h"
 #include "Utils.h"
